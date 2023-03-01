@@ -12,3 +12,10 @@ body{
 .kk{
     color: brown;
 }
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
