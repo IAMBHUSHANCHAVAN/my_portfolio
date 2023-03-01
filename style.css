@@ -1,11 +1,14 @@
 body{
-    background-color: black;
+    background-color: rgb(253, 252, 252);
 }
 .ne{
-    margin-top: 70px;
+    margin-top: 0px;
     padding: 30px;
 }
 .left{
     padding: 50px;
     margin: 30px;
+}
+.kk{
+    color: brown;
 }
