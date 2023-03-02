@@ -9,9 +9,6 @@ body {
   padding: 50px;
   margin: 30px;
 }
-.kk {
-  color: brown;
-}
 .nav-link {
   color: black;
 }
@@ -19,15 +16,22 @@ body {
   color: white;
   background-color: black;
 }
-.btn:hover {
-  box-shadow: 5px 5px 0.5px 1px black;
+.btnn:hover {
+  box-shadow: 5px 5px 4px 1px black;
+  transition: all 0.5s;
 }
-img {
-  width: 100%;
+.img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 55%;
   position: absolute;
-  top: 1px;
-  right: 1px;
-  height: 100%;
+  cursor: pointer;
+  top: 10rem;
+  /* right: 100px; */
+  height: 50%;
+}
+.img:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .r-h {
   width: 50%;
@@ -38,7 +42,9 @@ img {
     margin-top: 50px;
     width: 50%;
 }
-.btn{
-    width: 50%;
+.btnn{
+    width: 55%;
     margin-left: 39px;
+    height: 3rem;
+    border-radius: 1rem;
 }
