@@ -20,8 +20,8 @@ body {
   background-color: black;
 }
 .btnn:hover {
-  box-shadow: 5px 5px 4px 1px black;
-  transition: all 0.5s;
+  box-shadow: 3px 3px 1px 1px black;
+  transition: all 0.2s;
 }
 .img {
   border-radius: 50%;
