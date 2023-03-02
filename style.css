@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 252, 252);
 }
+.main{
+  height: 90vh;
+}
 .ne {
   margin-top: 0px;
   padding: 30px;
@@ -47,4 +50,25 @@ body {
     margin-left: 39px;
     height: 3rem;
     border-radius: 1rem;
+}
+.skill{
+  height: 104vh;
+  border: 1px solid black;
+}
+.kinh{
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+}
+.kinh:hover{
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  box-shadow: 4px 4px 0.1px 1px black;
+}
+.skill-img{
+  height: 10rem;
+  width: 25rem;
+}
+.mk{
+  margin-left: 10%;
 }
