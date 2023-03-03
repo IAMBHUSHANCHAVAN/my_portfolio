@@ -36,14 +36,40 @@ body {
 .img:hover{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+footer{
+  background-color: aliceblue;
+  
+}
 .r-h {
   width: 50%;
   height: 85vh;
   position: relative;
 }
+.sbtbtn{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 10px;
+}
+span{
+  color: cadetblue;
+}
+input{
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 5vh;
+}
+#feedback{
+  height: 20vh;
+}
 .l-h{
     margin-top: 50px;
     width: 50%;
+}
+.abtimg img{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .btnn{
     width: 55%;
@@ -53,7 +79,7 @@ body {
 }
 .skill{
   height: 104vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .kinh{
   width: 40%;
