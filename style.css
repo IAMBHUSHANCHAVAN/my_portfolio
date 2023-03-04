@@ -4,28 +4,9 @@ body {
 .main{
   height: 90vh;
 }
-.ne {
-  margin-top: 0px;
-  padding: 30px;
-}
-.left {
-  padding: 50px;
-  margin: 30px;
-}
-.nav-link {
-  color: black;
-}
 .col1{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   margin: 30px;
-}
-.nav-link:hover {
-  color: white;
-  background-color: black;
-}
-.btnn:hover {
-  box-shadow: 3px 3px 1px 1px black;
-  transition: all 0.2s;
 }
 .img {
   border-radius: 50%;
@@ -68,11 +49,26 @@ input{
 #feedback{
   height: 20vh;
 }
+.vs{
+  margin-left: 50px;
+  margin-top: 10px;
+}
 .l-h{
     margin-top: 50px;
     width: 50%;
 }
-.abtimg img{
+.imgg{
+  height: 90vh;
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.secimg{
+  height: 37vh;
+  width: 19vw;
+  margin-top: 25vh;
+  margin-left: 5vw;
+  border: 1px solid black;
+  border-radius: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .btnn{
@@ -84,6 +80,9 @@ input{
 .skill{
   height: 104vh;
   /* border: 1px solid black; */
+}
+.aboutme{
+  height: 104vh;
 }
 .kinh{
   width: 40%;
@@ -101,4 +100,61 @@ input{
 }
 .mk{
   margin-left: 10%;
+}
+
+/* media queryies */
+@media (max-width:768px){
+  .font{
+    font-size: large;
+  }
+  .font1{
+    font-size: large;
+  }
+}
+
+@media (max-width:991px) {
+  .skill{
+    height:250vh;
+  }
+  .aboutme{
+    height: 140vh;
+  }
+  .cc{
+    display: flex;
+    flex-direction: column;
+  }
+  .abtmes{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  .imgg{
+    display: none;
+  }
+  .secimg{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .skill{
+   margin: auto;
+  }
+  .col2{
+    margin-left: 20%;
+    margin-top: 35px;
+  }
+  .vs{
+   padding-top: 15px;
+  }
+}
+@media (min-width:992px){
+  .skill{
+    height: 120vh;
+  }
+.col2{
+  height: 230px;
+  width: 10px;
+}
+.r-h{
+  margin-left: 30px;
+}
 }

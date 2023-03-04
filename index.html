@@ -13,66 +13,36 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg nav-tabs bg-light text-uppercase ne">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="avatardefault_92824.png" alt="" width="35" height="35" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item k">
-            <a class="nav-link fw-bolder fs-4 rounded " aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 rounded" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 rounded" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fw-bolder fs-4 rounded" href="#">More</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-          <!-- <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li> -->
-        </ul>
-        <form class="d-flex">
-          <button class="btn btn-success mx-7 fs-5" type="button">
-            Contact Me
-          </button>
-        </form>
-      </div>
-    </div>
-  </nav>
+ <nav class="navbar navbar-expand-lg navbar-dark sticky-lg-top bg-dark text-dark">
+  <div class="collapse navbar-collapse" id="mymenu">
+    <a href="" class="nqv-brand mx-5 p-3">
+      <img src="avatardefault_92824.png" alt="" srcset="" height="70px" width="70px">
+    </a>
+    <ul class="navbar-nav">
+      <li class="list-items"><a href="#" class="nav-links text-white px-1 mx-3 fs-3 fw-bolder text-decoration-none">Home</a></li>
+      <li class="list-items"><a href="#" class="nav-links text-white px-1 mx-3 fs-3 fw-bolder text-decoration-none">about me</a></li>
+      <li class="list-items"><a href="#" class="nav-links text-white px-1 mx-3 fs-3 fw-bolder text-decoration-none">project</a></li>
+      <li class="list-items"><a href="#" class="nav-links text-white px-1 mx-3 fs-3 fw-bolder text-decoration-none">contact me</a></li>
+    </ul>
+  </div>
+  <button type="button" class="navbar-toggler" data-toggler="collapse" data-target="#mymenu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ </nav>
 
   <section class="main">
-    <div class="d-flex container">
+    <div class="d-flex container-sm">
       <div class="me-auto l-h d-flex justify-content-center flex-column align-items-center">
         <h1 class="font fs-1rem display-1 fw-bolder text-uppercase">
-          Hello i am <br />BHUSHAN
+          Hello i am <br/><span>BHUSHAN</span>
         </h1>
         <h3 class="font1 fs-0.5rem">a web DEVELOPER</h3>
         <button class="btnn bg-dark my-3 text-white">download cv</button>
-        <div class="socials my-3">
-          <a href="" class="fs-1 mx-3 rounded"><i class="fa-brands fa-instagram"></i></a>
-          <a href="" class="fs-1 mx-3 rounded"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="" class="fs-1 mx-3 rounded"><i class="fa-brands fa-twitter"></i></a>
-          <a href="" class="fs-1 mx-3 rounded"><i class="fa-brands fa-github"></i></a>
+        <div class="socials d-flex my-3">
+          <div class="icc"><a href="" class="fs-1 mx-3 mm rounded"><i class="fa-brands fa-instagram"></i></a></div>
+          <div class="icc"><a href="" class="fs-1 mx-3 mm rounded"><i class="fa-brands fa-linkedin"></i></a></div>
+          <div class="icc"><a href="" class="fs-1 mx-3 mm rounded"><i class="fa-brands fa-twitter"></i></a></div>
+          <div class="icc"><a href="" class="fs-1 mx-3 mm rounded"><i class="fa-brands fa-github"></i></a></div>
         </div>
       </div>
       <div class="r-h">
@@ -80,11 +50,11 @@
       </div>
     </div>
   </section>
-  <section class="aboutme border" id="abtme" style="height: 104vh;">
-    <div class="container d-flex my-5 py-5  align-items-center">
-      <div class="abtimg">
-        <img src="516-5167304_transparent-background-white-user-icon-png-png-download-removebg-preview.png" alt=""
-          srcset="">
+  <section class="aboutme border" id="abtme">
+    <div class="cc container d-flex my-5 py-5  align-items-center">
+      <div class="abtimg d-flex">
+        <img src="white.png" alt=""srcset="" height="100vh" width="100vw" class="imgg">
+        <img src="myimage-removebg-preview.png" class="secimg" alt="" srcset="">
       </div>
       <div class="mx-5 px-5 abtmes">
         <h1 class="display-4 fw-bolder">ABOUT <span>ME</span></h1>
@@ -105,43 +75,43 @@
       </div>
       <div class="container justify-content-center mk my-5 my-3 py-5">
         <div class="row my-5">
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="download.jpeg" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3">python</h3>
+            <h3 class="fs-3 vs my-3">python</h3>
           </div>
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="cpp.png" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3">C++</h3>
+            <h3 class="fs-3 vs my-3">C++</h3>
           </div>
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="mern.png" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3">MERN</h3>
+            <h3 class="fs-3 vs my-3">MERN</h3>
           </div>
         </div>
         <div class="row my-5">
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="html.png" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3">HTML</h3>
+            <h3 class="fs-3 vs my-3">HTML</h3>
           </div>
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="css.png" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3">CSS</h3>
+            <h3 class="fs-3 vs my-3">CSS</h3>
           </div>
-          <div class="col">
+          <div class="col col2">
             <div class="skill-img">
               <img src="javasript.png" class="kinh" alt="" srcset="">
             </div>
-            <h3 class="fs-3 my-3 ">JAVASCRIPT</h3>
+            <h3 class="fs-3 vs my-3 ">JAVASCRIPT</h3>
           </div>
         </div>
       </div>
@@ -253,7 +223,7 @@
       <button class="btn btn-dark sbtbtn">submit</button>
    
   </section>
-  <footer class="containerv my-5 bg-dark text-white text-center" style="height: 5vh;" >
+  <footer class="containerv my-5 bg-dark text-white text-center justify-content-center" style="height: 5vh;" >
     <p>all copy rights reserved by bhushan</p>
   </footer>
 
