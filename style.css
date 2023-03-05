@@ -101,12 +101,16 @@ input{
   /* border: 1px solid black; */
   box-shadow: 4px 4px 0.1px 1px black;
 }
+.contact{
+  height: 100vh;
+}
 .skill-img{
   height: 10rem;
   width: 25rem;
 }
-.mk{
-  margin-left: 10%;
+.imgpro:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
 }
 
 /* media queryies */
