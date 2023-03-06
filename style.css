@@ -1,8 +1,34 @@
 body {
-  background-color: rgb(253, 252, 252);
+  /* background-color: rgb(253, 252, 252); */
+}
+.aboutme{
+  height: 50vh;
 }
 .main{
   height: 90vh;
+  margin-top: 5rem;
+}
+.row1{
+  margin-top: 10rem;
+  height: 40vh;
+}
+.c-1{
+  border: none;
+  /* background-color: rgb(253, 252, 252); */
+}
+span{
+  color: aquamarine;
+}
+.card1{
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+#skill{
+  height: 50vh;
+  margin-top :10px;
 }
 .nav-links::after{
   position: absolute;
@@ -19,40 +45,9 @@ body {
 .nav-links:hover::after{
   width: 100%;
 }
-/* .col1{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  margin: 1rem;
-} */
-.img {
-  border-radius: 50%;
-  border: 1px solid black;
-  width: 55%;
-  position: absolute;
-  cursor: pointer;
-  top: 10rem;
-  /* right: 100px; */
-  height: 50%;
-}
-.img:hover{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
 footer{
   background-color: aliceblue;
 
-}
-.r-h {
-  width: 50%;
-  height: 85vh;
-  position: relative;
-}
-.sbtbtn{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  width: 20vw;
-  margin: 10px;
-  border-radius: 10px;
-}
-span{
-  color: cadetblue;
 }
 input{
   position: relative;
@@ -64,56 +59,23 @@ input{
 #feedback{
   height: 20vh;
 }
-.vs{
-  margin-left: 50px;
-  margin-top: 10px;
-}
-.l-h{
-    margin-top: 50px;
-    width: 50%;
-}
-.imgg{
-  height: 90vh;
-  display: block;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-.secimg{
-  height: 27vw;
-  width: 19vw;
-  margin-top: 25vh;
-  margin-left: 5vw;
-  border: 1px solid black;
-  border-radius: 50%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
 .btnn{
     width: 55%;
     margin-left: 39px;
     height: 3rem;
     border-radius: 1rem;
 }
-.mk{
-  margin-left: 9vw;
+.latestpro{
+  height: 100vh;
 }
-.skill{
-  height: 104vh;
-  /* border: 1px solid black; */
+.card-img-top{
+  height: 15vw;
 }
-.aboutme{
-  height: 104vh;
-}
-.kinh{
-  width: 40%;
-  height: 100%;
-  cursor: pointer;
-}
-.kinh:hover{
-  border-radius: 10px;
-  /* border: 1px solid black; */
-  box-shadow: 4px 4px 0.1px 1px black;
+.hh{
+  height: 13.8vw;
 }
 .contact{
-  height: 100vh;
+  height: 60vh;
 }
 .skill-img{
   height: 10rem;
@@ -126,73 +88,3 @@ input{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   cursor: pointer;
 }
-
-/* media queryies */
-/* @media (max-width:768px){
-  .font{
-    font-size: large;
-  }
-  .font1{
-    font-size: large;
-  }
-  .secimg{
-    width: 20vw;
-  }
-}
-
-@media (max-width:991px) {
-  .skill{
-    height:250vh;
-  }
-  .aboutme{
-    height: 140vh;
-  }
-  .mk{
-    height: 100vh;
-  }
-  .img{
-    width: 40vw;
-  }
-  .cc{
-    display: flex;
-    flex-direction: column;
-  }
-  .abtmes{
-    margin-top: 30px;
-    align-items: center;
-    text-align: center;
-  }
-  .imgg{
-    display: none;
-  }
-  .secimg{
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-  .skill{
-   margin: auto;
-   /* height: 150vh; */
-  /* }
-  .col2{
-    margin-left: 20%;
-    margin-top: 35px;
-  }
-  .vs{
-   padding-top: 15px;
-  }
-} */ 
-/* @media (min-width:992px){
-  .skill{
-    height: 120vh;
-  }
-  .navbar{
-    position: sticky;
-  }
-.col2{
-  height: 230px;
-  width: 10px;
-}
-.r-h{
-  margin-left: 30px;
-}
-} 
