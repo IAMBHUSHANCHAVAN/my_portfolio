@@ -164,4 +164,7 @@ input{
     height: 50%;
     margin: auto;
   }
+  .memain{
+    height: 40vh;
+  }
 }
