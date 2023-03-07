@@ -164,6 +164,9 @@ input{
     height: 50%;
     margin: auto;
   }
+  .latestpro{
+    height: 240vh;
+  }
   .memain{
     height: 40vh;
   }
